@@ -16,7 +16,7 @@ My custom codule Collection for Waybar.
 
   - Link URL "jadwale_waybar.py":
     ```
-    https://github.com/alizzaai/jadwale_waybar/blob/master/scripts/jadwale_waybar.json
+    https://github.com/alizzaai/aai_waybar/blob/main/scripts/jadwale_waybar.py
     ```
 - ## Usage/Examples
   
@@ -83,9 +83,9 @@ My custom codule Collection for Waybar.
   ```bash
   ...
   "custom/jadwale": {
-  		...
-  		"exec": "~/.config/waybar/scripts/jadwale_waybar.py -c kediri -i 1",
-          ...
+  	...
+  	"exec": "~/.config/waybar/scripts/jadwale_waybar.py -c kediri -i 1",
+    ...
   }
   ```
   Save the Waybar config file and restart Waybar to take changes.
