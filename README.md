@@ -1,4 +1,4 @@
-# AAI Custom Module
+# AAI Waybar Custom Module
 
 My custom codule Collection for Waybar.
 - jadwale_waybar
