@@ -3,7 +3,7 @@
 My custom codule Collection for Waybar.
 - jadwale_waybar
 
-	Waybar module to display prayer times for Muslims, specifically for the **Indonesia** region. The data was taken using the Islamic API from [myquran.com](myquran.com).
+	Waybar module to display prayer times for Muslims, specifically for the **Indonesia** region. The data was taken using the Islamic API from myquran.com.
 ## Demo
   ![](assets/demo.gif)
 ## Features
@@ -69,7 +69,7 @@ My custom codule Collection for Waybar.
   You must properly add this custom module to Waybar config (usually "config.jsonc"), like in the example section, and check the "exec" section of this module to see where this script is located.
 - #### "City Not Found", how to fix it?
   
-  This is because your city is not in [myquran.com](myquran.com) database. You can choose another city name that is near your city, or you can edit this script yourself as you wish. Contribution is welcome.
+  This is because your city is not in myquran.com database. You can choose another city name that is near your city, or you can edit this script yourself as you wish. Contribution is welcome.
 - #### "Multiple cities detected", how to solve this issue?
   
   This is because your city name have two or more result from database. You must add "-i *cityindex*" argument in your "exec" Waybar config section.
