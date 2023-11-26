@@ -1,8 +1,9 @@
 # AAI Custom Module
 
 My custom codule Collection for Waybar.
-	- jadwale_waybar
-	  Waybar module to display prayer times for Muslims, specifically for the Indonesian region. The data was taken using the Islamic API from [myquran.com](myquran.com).
+- jadwale_waybar
+
+	Waybar module to display prayer times for Muslims, specifically for the **Indonesia** region. The data was taken using the Islamic API from [myquran.com](myquran.com).
 - ## Demo
   ![](assets/demo.gif)
 - ## Features
