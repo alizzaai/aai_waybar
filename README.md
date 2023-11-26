@@ -79,7 +79,7 @@ My custom codule Collection for Waybar.
   ```json
   {"KAB. KEDIRI": 0, "KOTA KEDIRI": 1}
   ```
-  If we choose "KOTA KEDIRI" then i put this index with "-i" argument on Waybar config.json as follows:
+  If i choose "KOTA KEDIRI" then i put this index with "-i" argument on Waybar config.json as follows:
   ```bash
   ...
   "custom/jadwale": {
