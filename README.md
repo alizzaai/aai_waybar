@@ -4,21 +4,21 @@ My custom codule Collection for Waybar.
 - jadwale_waybar
 
 	Waybar module to display prayer times for Muslims, specifically for the **Indonesia** region. The data was taken using the Islamic API from [myquran.com](myquran.com).
-- ## Demo
+## Demo
   ![](assets/demo.gif)
-- ## Features
+## Features
 - Show the next prayer time
 - Displays today prayer time or tomorrow prayer time tooltips
-- ## Requirements
+## Requirements
   - Python 3 (Tested with 3.11.6 version)
-- ## Installation
+## Installation
   Locate the script file you want to download, Click Raw Button, and Select Save as... and put it in your Waybar config folder. Finally add custom module entries to Waybar config (check **Example** section).
 
   - Link URL "jadwale_waybar.py":
     ```
     https://github.com/alizzaai/aai_waybar/blob/main/scripts/jadwale_waybar.py
     ```
-- ## Usage/Examples
+## Usage/Examples
   
   Examples of usage in the Waybar config file **"config.jsonc"** are as follows:
   ```jsonc
@@ -55,9 +55,9 @@ My custom codule Collection for Waybar.
 	          "return-type": "json"
 	  }
 	  ```
-- ## Platform support
+## Platform support
   Already tested on Arch Linux for now with Python 3.11.6.
-- ## FAQ
+## FAQ
 - #### How to change city when i already choose it?
   
   You can change "exec" command argument "-c newcityname" in Waybar config file, delete "jadwale_waybar_output.json" file (located same as this script located) and restart Waybar to take changes.
@@ -92,5 +92,5 @@ My custom codule Collection for Waybar.
 - #### I can see some change in my Waybar layout, but i just see only blank space, how to fix it?
   
   Make an issue on this repository or fix it yourself. Contribution is welcome.
-- ## License
+## License
   [GPL-3.0](LICENSE)
